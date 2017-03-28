@@ -1,0 +1,68 @@
+body {
+  font: 14px Roboto, "Lucida Grande", Helvetica, Arial, sans-serif;
+  text-align: left;
+}
+
+a {
+  color: #00B7FF;
+  text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+h1 {
+    font-size: 4em;
+    font-weight: bolder;
+    margin: .5em 0;
+}
+
+h2 {
+    font-size: 3em;
+    font-weight: bold;
+    margin: 0.5em 0 0.25em 0;
+}
+
+h1 small {
+    display: block;
+    font-size: .25em;
+    margin: -0.5em 0 0 1em;
+}
+
+h3 {
+    font-size: 1.5em;
+    font-weight: 600;
+    margin: 0.5em 0 0.10em 0;
+}
+.content {
+    position: relative; 
+    width: 100%;
+}
+.container {
+    margin: 0 auto;
+    max-width: 55em;
+}
+li {
+    list-style: disc inside;
+}
+dd {
+    margin-left: 3em;
+}
+pre {
+    display: inline-block;
+    font-family: monospace;
+    background: #dedede;
+}
+pre a {
+    color: #111111;
+}
+
+pre a:hover {
+    color: #00B7FF;
+}
+.footer {
+    margin-top: 2em;
+}
+dt {
+    margin-top: 0.5em;
+}
